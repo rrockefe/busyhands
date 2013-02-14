@@ -1,0 +1,70 @@
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+.clearleft {
+  clear: left;
+}
+.clearright {
+  clear: right;
+}
+
+/*--------------------------------------------------------------------
+=01 BODY
+---------------------------------------------------------------------*/
+
+body{
+	background: url(../images/bg_wrapper.png) repeat-x;
+	color: #fff;
+	font-family: Helvetica, Helvetica, sans-serif;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo{
+	clear: both;
+}
+
+#header {
+	background: ;
+}
+/*--------------------------------------------------------------------
+=02 NAV
+---------------------------------------------------------------------*/
+
+.nav ul{
+	display: block;
+}
+
+.nav ul li{
+	float: left;
+	list-style: none;
+}
+
+.nav a{
+	text-decoration: none;
+	display: block;
+	margin: 20px;
+	color: #fff;
+}
+
+.socialmedia ul{
+	display: block;
+}
+
+.socialmedia ul li{
+	float: left;
+	list-style: none;
+}
